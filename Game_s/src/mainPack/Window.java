@@ -21,6 +21,7 @@ public class Window extends JFrame{
 		frame = new JFrame("title");
 		frame.setPreferredSize(screenSize);
 		frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
+		frame.setResizable(false);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.add(game);
 		frame.requestFocus();
